@@ -21,3 +21,7 @@ There are posted SQL files with all data for quick access to whole project.
 * Ability to add and delete products are incorporated
 * Exception handler is implemented
 * CORS is configured in the back-end and works correctly
+
+
+## UI page
+![Image of Maint](https://github.com/Avgona/product-web/blob/main/img/iTaxiUI.png?raw=true)
