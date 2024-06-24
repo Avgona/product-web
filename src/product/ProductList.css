@@ -1,0 +1,121 @@
+.product-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.add-product-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-product-form input {
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-product-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-product-form button:hover {
+    background-color: #45a049;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-table th {
+    background-color: #f1f1f1;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-table .view-details-btn {
+    padding: 5px 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-table .view-details-btn:hover {
+    background-color: #00a5b3;
+}
+
+.product-table .update-btn {
+    padding: 5px 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px; /* Add some space between update and delete button */
+}
+
+.product-table .update-btn:hover {
+    background-color: #e68900;
+}
+
+.product-table .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-table .delete-btn:hover {
+    background-color: #d32f2f;
+}
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the fields and button */
+    margin-bottom: 20px; /* Add some space below the form */
+}
+
+.add-product-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; /* Add space between fields */
+}
+
+.add-product-form button {
+    margin-top: 3px; /* Add space above the button */
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.875em;
+}
