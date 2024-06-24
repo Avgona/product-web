@@ -9,11 +9,11 @@ There are posted SQL files with all data for quick access to whole project.
 * NPM
 
 ## Running the application
-* 0) Go to back-end repository and run the back-end
-* 1) Open the application using Intellij idea
-* 2) run "npm intall" command to download all necessary libs 
-* 3) run "npm start" or click run button in package.json besides ""start": "react-scripts start""
-* 4) Open http://localhost:3000/ to see the web application.
+* Go to back-end repository and run the back-end
+* Open the application using Intellij idea
+* run "npm intall" command to download all necessary libs 
+* run "npm start" or click run button in package.json besides ""start": "react-scripts start""
+* Open http://localhost:3000/ to see the web application.
 
 
 ## Completed Back-end subtasks
