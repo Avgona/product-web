@@ -24,4 +24,4 @@ There are posted SQL files with all data for quick access to whole project.
 
 
 ## UI page
-![Image of Maint](https://github.com/Avgona/product-web/blob/main/img/iTaxiUI.png?raw=true)
+![Image of Maint](https://github.com/Avgona/product-web/blob/master/img/iTaxiUI.png?raw=true)
